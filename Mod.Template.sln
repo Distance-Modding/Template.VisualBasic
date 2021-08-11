@@ -3,10 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Mod.Template.Content", "Mod.Template.Content\Mod.Template.Content.shproj", "{4E7D37C7-8AFE-4F79-BAF6-4CE82D05E091}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mod.Template", "Mod.Template\Mod.Template.csproj", "{7BCB2908-B003-45D9-BE68-50CBA5217603}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{08A1C9FA-7DC2-4A60-B9A6-AC0EB7132893}"
 	ProjectSection(SolutionItems) = preProject
 		.gitattributes = .gitattributes
@@ -15,19 +11,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Mod.Template", "Mod.Template\Mod.Template.vbproj", "{F344A9A5-FF40-4BD1-B487-ACE14B2D69F0}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Mod.Template.Content", "Mod.Template.Content\Mod.Template.Content.shproj", "{D75CF09F-51ED-4670-A2A1-19426F6AF636}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		Mod.Template.Content\Mod.Template.Content.projitems*{4e7d37c7-8afe-4f79-baf6-4ce82d05e091}*SharedItemsImports = 13
+		Mod.Template.Content\Mod.Template.Content.projitems*{d75cf09f-51ed-4670-a2a1-19426f6af636}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7BCB2908-B003-45D9-BE68-50CBA5217603}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7BCB2908-B003-45D9-BE68-50CBA5217603}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7BCB2908-B003-45D9-BE68-50CBA5217603}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7BCB2908-B003-45D9-BE68-50CBA5217603}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F344A9A5-FF40-4BD1-B487-ACE14B2D69F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F344A9A5-FF40-4BD1-B487-ACE14B2D69F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F344A9A5-FF40-4BD1-B487-ACE14B2D69F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F344A9A5-FF40-4BD1-B487-ACE14B2D69F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
