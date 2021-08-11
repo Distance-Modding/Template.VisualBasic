@@ -1,6 +1,7 @@
 ﻿Imports Reactor.API.Attributes
 Imports Reactor.API.Interfaces.Systems
 Imports Reactor.API.Logging
+Imports Reactor.API.Runtime.Patching
 Imports UnityEngine
 
 Namespace Distance.ModTemplate
@@ -36,6 +37,8 @@ Namespace Distance.ModTemplate
 			Logger = LogManager.GetForCurrentAssembly()
 
 			Logger.Info("Hello World!")
+
+			RuntimePatcher.AutoPatch()
 		End Sub
 
 		''' <summary>
